@@ -47,7 +47,7 @@ bash experiments.sh
 >>>>|-result  
 >>>>|-replace  
 >>>>|-tools  
->>>>|-setttings.txt  
+>>>>|-settings.txt  
 >>>>|-...  
 
 #### Acknowledgement
