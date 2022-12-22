@@ -1,4 +1,5 @@
-# IFSO
+# Influence Function Based Second-Order Channel Pruning: Evaluating True Loss Changes For Pruning Is Possible Without Retraining
+This repo contains the code for reproducing the results of the above paper.
 
 ## Get Started
 #### 1. Create the environment
@@ -35,5 +36,11 @@ Go to IFSO/tools/ and release the corresponding part of experiments.sh
 ```shell
 bash experiments.sh
 ```
+
+#### Acknowledgement
+Our code is built upon the following codes. We appreciate their contributions.  
+https://github.com/jshilong/FisherPruning  
+https://github.com/open-mmlab/mmclassification  
+https://github.com/Ben-Louis/FisherPruning-Pytorch
 
 
