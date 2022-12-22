@@ -36,6 +36,20 @@ Go to IFSO/tools/ and release the corresponding part of experiments.sh
 bash experiments.sh
 ```
 
+#### 6. The directory structure for running our code
+>-data  
+>>|-cifar10  
+>>>|-cifar-10-batches-py   
+
+>-code  
+>>|-pruning  
+>>>|-IFSO  
+>>>>|-result  
+>>>>|-replace  
+>>>>|-tools  
+>>>>|-setttings.txt  
+>>>>|-...  
+
 #### Acknowledgement
 Our code is built upon the following codes. We appreciate their contributions.  
 https://github.com/jshilong/FisherPruning  
