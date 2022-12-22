@@ -24,14 +24,15 @@ cd IFSO
  MMCV_WITH_OPS=1 pip install -e .
 ```
 #### 4. Replace some files in mmcv with ours
-```shell
-replace IFSO/mmcv/mmcv/runner/base_runner.py with IFSO/replace/base_runner.py
-replace IFSO/mmcv/mmcv/runner/epoch_base_runner.py with IFSO/replace/epoch_base_runner.py
-replace IFSO/mmcv/mmcv/runner/hooks/chenckpoint.py with IFSO/replace/checkpoint.py
-```
+replace IFSO/mmcv/mmcv/runner/base_runner.py with IFSO/replace/base_runner.py  
+replace IFSO/mmcv/mmcv/runner/epoch_base_runner.py with IFSO/replace/epoch_base_runner.py  
+replace IFSO/mmcv/mmcv/runner/hooks/chenckpoint.py with IFSO/replace/checkpoint.py  
+
 
 #### 5. Pre-train, Prune and Fine-tune
-Go to IFSO/tools/ and release the corresponding part of experiments.sh
+Go to IFSO/tools/  
+Release the corresponding part of experiments.sh and modify --work-dir='The path you specified'  
+By default, --work-dir='./result/temp'  
 ```shell
 bash experiments.sh
 ```
