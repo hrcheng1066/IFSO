@@ -32,7 +32,7 @@ replace IFSO/mmcv/mmcv/runner/hooks/chenckpoint.py with IFSO/replace/checkpoint.
 #### 5. Pre-train, Prune and Fine-tune
 Go to IFSO/tools/  
 Release the corresponding part of experiments.sh and modify --work-dir='The path you specified'  
-By default, --work-dir='./result/temp'  
+By default, --work-dir='../result/temp'  
 ```shell
 bash experiments.sh
 ```
