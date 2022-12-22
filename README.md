@@ -1,5 +1,4 @@
 # Influence Function Based Second-Order Channel Pruning: Evaluating True Loss Changes For Pruning Is Possible Without Retraining
-This repo contains the code for reproducing the results of the above paper.
 
 ## Get Started
 #### 1. Create the environment
