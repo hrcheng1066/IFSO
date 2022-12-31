@@ -241,8 +241,8 @@ class FisherPruningHook(Hook):
 
             return [(x-y).div_(2*R) for x, y in zip(grads_p, grads_n)]
 
-        # _vector_hessian_product_neumann_3
-        def _vector_hessian_product_neumann_3(vector, weight_decay):
+        # _vector_hessian_product
+        def _vector_hessian_product(vector, weight_decay):
             lambda_1 = weight_decay
             hessian_vector = [1/lambda_1 * p.data for p in vector]
             return hessian_vector
@@ -291,7 +291,7 @@ class FisherPruningHook(Hook):
 
         for i, data_batch in enumerate(runner.data_loader):
             ones_H = _hessian_vector_product_mask(vector_ones, data_batch, r=1e-2)
-            ones_H_H_1 = _vector_hessian_product_neumann_3(ones_H, weight_decay)
+            ones_H_H_1 = _vector_hessian_product(ones_H, weight_decay)
             temp = _hessian_vector_product_weight(ones_H_H_1, data_batch, r=1e-2)
             ones_H_H_1_H = [(abs(x) + y) for x, y in zip(temp, ones_H_H_1_H)]    #absolute??
             count += 1
