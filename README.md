@@ -37,7 +37,7 @@ By default, --work-dir='../result/temp'
 bash experiments.sh
 ```
 
-#### 6. The directory structure for running our code
+#### 6. The folder for running our code
 >-data  
 >>|-cifar10  
 >>>|-cifar-10-batches-py   
@@ -52,7 +52,7 @@ bash experiments.sh
 >>>>|-...  
 
 #### Acknowledgement
-Our code is built upon the following codes. We appreciate their contributions.  
+Our code is built upon the following codes. We appreciate their authors' contributions.  
 https://github.com/jshilong/FisherPruning  
 https://github.com/open-mmlab/mmclassification  
 https://github.com/Ben-Louis/FisherPruning-Pytorch
