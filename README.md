@@ -1,4 +1,5 @@
 # Influence Function Based Second-Order Channel Pruning: Evaluating True Loss Changes For Pruning Is Possible Without Retraining
+This repo supports our paper ([Paper Link](https://arxiv.org/abs/2308.06755)) which is under review.
 
 ## Get Started
 #### 1. Create the environment
@@ -56,5 +57,14 @@ Our code is built upon the following codes. We appreciate their authors' contrib
 https://github.com/jshilong/FisherPruning  
 https://github.com/open-mmlab/mmclassification  
 https://github.com/Ben-Louis/FisherPruning-Pytorch
+
+### Citation
+If you find this project useful, please cite
+@article{cheng2023influence,
+  title={Influence Function Based Second-Order Channel Pruning: Evaluating True Loss Changes For Pruning Is Possible Without Retraining},
+  author={Hongrong Cheng and Miao Zhang and Javen Qinfeng Shi},
+  journal={arXiv preprint arXiv:2308.06755},
+  year={2023}
+}
 
 
