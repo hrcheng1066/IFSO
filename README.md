@@ -60,11 +60,12 @@ https://github.com/Ben-Louis/FisherPruning-Pytorch
 
 ### Citation
 If you find this project useful, please cite
+```bibtex
 @article{cheng2023influence,
   title={Influence Function Based Second-Order Channel Pruning: Evaluating True Loss Changes For Pruning Is Possible Without Retraining},
   author={Hongrong Cheng and Miao Zhang and Javen Qinfeng Shi},
   journal={arXiv preprint arXiv:2308.06755},
   year={2023}
 }
-
+```
 
